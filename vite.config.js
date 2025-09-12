@@ -3,6 +3,5 @@ import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
   plugins: [vue()],
-  // IMPORTANT: use your repo name here
-  base: '/dev-profile-vue/',
+  base: '/dev-profile-vue/', // EXACT repo name with leading & trailing slash
 })
